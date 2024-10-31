@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <form class="container">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter Username" required>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter Password" required>
+
+        <div class="radio-group">
+            <label>Gender</label>
+            <label>
+                <input type="radio" name="gender" value="male">
+                Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female">
+                Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="others" checked>
+                Others
+            </label>
+        </div>
+
+        <div class="checkbox-group">
+            <label>Programming</label>
+            <label>
+                <input type="checkbox" name="programming" value="java" checked>
+                Java
+            </label>
+            <label>
+                <input type="checkbox" name="programming" value="csharp" checked>
+                C#
+            </label>
+            <label>
+                <input type="checkbox" name="programming" value="cpp" checked>
+                C++
+            </label>
+        </div>
+
+        <label for="fruit">Favorite Fruit</label>
+        <select id="fruit">
+            <option>Banana</option>
+            <option>Apple</option>
+            <option>Orange</option>
+        </select>
+
+        <label for="comments">Comments</label>
+        <textarea id="comments" placeholder="Enter some text"></textarea>
+
+        <div class="buttons">
+            <button id="send">Send</button>
+            <button id="reset">Reset</button>
+        </div>
+
+    </form>
+    
+</body>
+</html>
